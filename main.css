@@ -389,6 +389,7 @@ h4	{
 
 .comment_bar {
 	display: inline-block;
+	list-style: none;
 }
 
 #button1 {
