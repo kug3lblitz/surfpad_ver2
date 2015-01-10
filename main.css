@@ -369,5 +369,15 @@ h4	{
 	height: 50px;
 	width: 50px;
 	border-radius: 70%;
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
+	max-height: 100%;
+	max-width: 100%;
+	padding: 0;
+}
+
+#mainpic {
+	width: 22px;
+	height: 22px;
+	border-radius: 70%;
+	padding: 0;
 }
