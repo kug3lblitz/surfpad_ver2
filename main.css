@@ -384,11 +384,11 @@ h4	{
 
 .commentbar{
 		/*html line 45*/
-
+		display: inline-block;
 }
 
 .comment_bar {
-	display: inline;
+	display: inline-block;
 }
 
 #button1 {
