@@ -2,6 +2,8 @@ body {
 	font-family: 'Oswald', 'sans-serif';
 	margin: 0;
 	padding: 0;
+	max-width: 1300px;
+	min-width: 300px;
 }
 
 .container {
@@ -16,6 +18,8 @@ body {
 	position: absolute;
 	right: 0;
 	top: 0;
+	width: 100%;
+	min-width: 600px;
 }
 
 .hdroverlay {
@@ -26,6 +30,8 @@ body {
 	right: 0;
 	top: 0;
 	background-repeat: no-repeat;
+	max-width: 100%;
+	background-position: center center;
 }
 .content	{
 	margin:0 auto;
@@ -119,7 +125,7 @@ body {
 	position: absolute;
 	left: 240px;
 }
-.foottext1 span {
+.footertext1 span {
 	font-family:'Asap', 'sans-serif';
 	color:#C0C0BE;
 	font-size: 14px;
@@ -129,7 +135,7 @@ body {
 	position: absolute;
 	left: 224px;
 }
-.foottext1 img {
+.footertext1 img {
 	margin-top: -8px;
 	padding-top: 0px;
 	margin-bottom: -4px;
@@ -273,20 +279,20 @@ h4	{
 	color:#DEDEDC;
 	font-size:14px;
 }
-.paragraph2	{
+#paragraph2	{
 	margin-top: 23px;
 	margin-bottom: 38px;
 }
-.paragraph1 {
+#paragraph1 {
 	margin-top: 24px;
 }
-.paragraphone {
+#paragraphone {
 	margin-top: 30px;
 }
-.paragraph1 a {
+#paragraph1 a {
 	color: #505050;
 }
-.paragraph4 {
+#paragraph4 {
 	margin-top: -13px
 }
 .boxes {
@@ -350,4 +356,11 @@ h4	{
 	margin-bottom: -24px;
 	margin-top:-26px;
 	margin-left: -3px;
+}
+
+.footertext {
+	/*float: right;*/
+	position: relative;
+	color: white;
+	display: inline-block;
 }
