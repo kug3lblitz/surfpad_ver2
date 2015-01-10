@@ -181,7 +181,7 @@ body {
 }
 p {
 	clear:left;
-	color:#505050;
+	/*color:#505050;*/
 	font-family: 'Asap', 'sans-serif';
 	font-size: 100%;
 	font-weight: 400;
@@ -380,4 +380,34 @@ h4	{
 	height: 22px;
 	border-radius: 70%;
 	padding: 0;
+}
+
+.commentbar{
+		/*html line 45*/
+
+}
+
+.comment_bar {
+	display: inline;
+}
+
+#button1 {
+	height: 10px;
+	width: 50px;
+	background-color: blue;
+	display: inline-block;
+}
+
+#button2 {
+	height: 10px;
+	width: 50px;
+	background-color: yellow;
+	display: inline-block;
+}
+
+#button3 {
+	height: 10px;
+	width: 50px;
+	background-color: green;
+	display: inline-block;
 }
