@@ -30,7 +30,7 @@ body {
 	right: 0;
 	top: 0;
 	background-repeat: no-repeat;
-	max-width: 100%;
+	background-size: cover;
 	background-position: center center;
 }
 .content	{
@@ -363,4 +363,11 @@ h4	{
 	position: relative;
 	color: white;
 	display: inline-block;
+}
+
+#sidepic {
+	height: 50px;
+	width: 50px;
+	border-radius: 70%;
+	border: 1px dashed red;
 }
