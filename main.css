@@ -277,6 +277,8 @@ h4	{
 	font-family:'Asap', 'sans-serif';
 	color:#DEDEDC;
 	font-size:14px;
+	max-width: 50%;
+	overflow: auto;
 }
 .sectiondetail span {
 	font-family:'Asap', 'sans-serif';
@@ -415,4 +417,9 @@ h4	{
 	width: 50px;
 	background-color: green;
 	display: inline-block;
+}
+
+#rtsubadtxt {
+	max-width: 500px;
+	max-height: 250px;
 }
