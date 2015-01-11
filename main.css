@@ -389,6 +389,12 @@ h4	{
 	display: inline;
 }
 
+.comment_bar li {
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+}
+
 #button1 {
 	height: 10px;
 	width: 50px;
