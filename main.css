@@ -17,7 +17,7 @@ body {
 }
 
 .overlay {
-	background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(15, 193, 47, 0.75)), url("http://www.fillmurray.com/140/200");
+	background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(6, 241, 37, 0.75));
 	bottom: 0;
 	left: 0;
 	position: absolute;
@@ -28,7 +28,7 @@ body {
 }
 
 .hdroverlay {
-	background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(15, 193, 47, 0.75)), url("./pictures/2.5.png");
+	background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(13, 195, 165, 0.75)), url("./pictures/5488.jpg");
 	bottom: 0;
 	left: 0;
 	position: absolute;
@@ -167,6 +167,8 @@ body {
 	height: 59px;
 	padding: 40px 0px 0px;
 	background-color: #083452;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer2 {
@@ -177,20 +179,8 @@ body {
 	color:white;
 }
 
-/*.closer1	{
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	height: 260px;
-	width:260px;
-	position: relative;
-	margin-bottom: 0px;
-}*/
-
 p {
 	clear:left;
-	/*color:#505050;*/
 	font-family: 'Asap', 'sans-serif';
 	font-size: 100%;
 	font-weight: 400;
@@ -309,12 +299,16 @@ h4	{
 }
 .boxes {
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .square {
 	float: left;
 	height: 330px;
 	position: relative;
 	width: 25%;
+	background-position: center center;
+	background-size: cover;
 }
 .square strong {
 	bottom: 20px;
@@ -329,7 +323,7 @@ h4	{
 	z-index: 1;
 	margin-bottom: -12px;
 }
-.square strongtwo	{
+/*.square strong	{
 	bottom: 20px;
 	color: white;
 	display: block;
@@ -341,7 +335,8 @@ h4	{
 	position:absolute;
 	z-index: 1;
 	margin-bottom: -12px;
-}
+	width: 25%
+}*/
 .author img {
 	margin-top: -8px;
 	padding-top: 12px;
@@ -368,13 +363,6 @@ h4	{
 	margin-bottom: -24px;
 	margin-top:-26px;
 	margin-left: -3px;
-}
-
-.footertext {
-	/*float: right;*/
-	position: relative;
-	color: white;
-	display: inline-block;
 }
 
 #sidepic {
@@ -438,4 +426,288 @@ h4	{
 	max-width: 200px;
 	border: 0px;
 	alt: "a-psycho"
+}
+
+/*test section*/
+
+#pictures {
+	height: 330px;
+}
+
+#pictures ul {
+	padding: 0;
+}
+
+#pictures ul li {
+	height: 330px;
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	position: relative;
+}
+
+#pictures .one, .two, .three, .four {
+	height: 330px;
+	display: inline-block;
+}
+
+.one {
+	height: 330px;
+	background-image: url(./pictures/mon.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.two {
+	height: 330px;
+	background-image: url(./pictures/pom.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.three {
+	height: 330px;
+	background-image: url(./pictures/mp5.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.four {
+	height: 330px;
+	background-image: url(./pictures/aston.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.one p {
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 29px;
+	font-weight: 400;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 7px;
+}
+
+.one:hover .pic-titles {
+	color: #FFF;
+	text-shadow: 1px 1px 10px #555;
+}
+
+.one::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(38, 115, 172, 0.5);
+	transition: 350ms;
+}
+
+.one:hover::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: transparent;
+}
+
+.two::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(38, 115, 172, 0.5);
+	transition: 500ms;
+}
+
+.two:hover::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: transparent;
+}
+
+.two p {
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 29px;
+	font-weight: 400;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 7px;
+}
+
+.two:hover .pic-titles {
+	color: #FFF;
+	text-shadow: 1px 1px 10px #555;
+}
+
+.three::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(38, 115, 172, 0.5);
+	transition: 500ms;
+}
+
+.three:hover::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: transparent;
+}
+
+.three p {
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 29px;
+	font-weight: 400;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 7px;
+}
+
+.three:hover .pic-titles {
+	color: #FFF;
+	text-shadow: 1px 1px 10px #555;
+}
+
+.four::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(38, 115, 172, 0.5);
+	transition: 500ms;
+}
+
+.four:hover::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: transparent;
+}
+
+.four p {
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 29px;
+	font-weight: 400;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 7px;
+}
+
+.four:hover .pic-titles {
+	color: #FFF;
+	text-shadow: 1px 1px 10px #555;
+}
+
+footer {
+	width: 100%;
+	height: 97px;
+	background-color: #0B3550;
+}
+
+.footer-container {
+	width: 996px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footer-left {
+	display: inline-block;
+}
+
+.footer-left a {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-left p {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	color: #A3B3BE;
+}
+
+.footer-right {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.footer-right ul {
+	list-style-type: none;
+	display: inline-block;
+	right: 0;
+
+	margin-right: 13px;
+	padding-top: 10px;
+}
+
+.footer-right li {
+	display: inline-block;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.footer-right li a {
+	text-decoration: none;
+	color: #A3B3BE;
+	display: center;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.span-bar {
+	color: #A3B3BE;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
 }
