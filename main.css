@@ -240,7 +240,7 @@ h4	{
 	font-size:17px;
 	margin: 0px;
 	padding-left: 85px;
-	padding-right: 10px;
+	padding-right: 20px;
 	margin-top: -12px;
 }
 .socialtext{
@@ -254,7 +254,7 @@ h4	{
 .abouttext a	{
 	font-family:'Asap', 'sans-serif';
 	color: #DEDEDC;
-	font-size:14px;
+	font-size:13px;
 	padding-top: 0px;
 	padding-left: 194px;
 }
@@ -366,8 +366,8 @@ h4	{
 }
 
 #sidepic {
-	height: 50px;
-	width: 50px;
+	height: 80px;
+	width: 80px;
 	border-radius: 70%;
 	/*border: 1px dashed red;*/
 	max-height: 100%;
@@ -419,11 +419,13 @@ h4	{
 }
 
 #adpic {
-	padding-left: 55px;
-	background-image: url("./pictures/photo.jpg")
+	/*padding-left: 55px;*/
+	background-image: url("./pictures/photo_lrg.png")
+	background-size: cover;
+	background: center center;
 	height, width: auto;
-	max-height: 200px;
-	max-width: 200px;
+	height: 300px;
+	width: 280px;
 	border: 0px;
 	alt: "a-psycho"
 }
@@ -467,6 +469,9 @@ h4	{
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 .three {
@@ -710,4 +715,60 @@ footer {
 	font-size: 14px;
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
+}
+
+/*sidebar test*/
+
+.social-bars {
+	color: #A3B3BE;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 1px;
+}
+
+
+.sidebar {
+	display:inline-block;
+	width:277px;
+	margin-left: 25px;
+	margin-top:75px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.author-info a {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	color: #A3B3BE;
+}
+
+.sidebar ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #A3B3BE;
+}
+
+.author-info {
+	display:block;
+	text-align:center;
+}
+
+.larger-pic {
+	border-radius: 42px;
+	height: 84px;
+	width: 84px;
+	position: relative;
+	display: block;
+	background-image: url(./pictures/g.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
 }
