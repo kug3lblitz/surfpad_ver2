@@ -236,7 +236,7 @@ h4	{
 }
 .infotext	{
 	font-family:'Asap', 'sans-serif';
-	color:#1A69B0;
+	color: #1A69B0;
 	font-size:17px;
 	margin: 0px;
 	padding-left: 85px;
@@ -268,6 +268,7 @@ h4	{
 	font-size: 18px;
 	margin-bottom: -3px;
 	margin-top: 27px;
+	text-align: center;
 }
 .sectiondetail	a {
 	font-family:'Asap', 'sans-serif';
@@ -406,15 +407,16 @@ h4	{
 }
 
 #adpic {
-	/*padding-left: 55px;*/
-	background-image: url("./pictures/photo_lrg.png")
+	background-image: url(pictures/photo_lrg.png);
 	background-size: cover;
-	background: center center;
+	background-color: transparent;
+	background-position: center center;
 	height, width: auto;
 	height: 300px;
 	width: 280px;
 	border: 0px;
 	alt: "a-psycho"
+	overflow: hidden;
 }
 
 /*footer sections*/
@@ -758,4 +760,8 @@ footer {
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#commbar {
+	display: inline-block;
 }
