@@ -18,7 +18,7 @@ body {
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 100%;
+	width: auto;
 	min-width: 600px;
 }
 
@@ -32,6 +32,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	width:auto;
 }
 .content	{
 	margin:0 auto;
@@ -169,7 +170,8 @@ body {
 	font-family: verdana ;
 	color:white;
 }
-.closer1	{
+
+/*.closer1	{
 	background-image: url();
 	background-repeat: no-repeat;
 	background-position: center;
@@ -178,7 +180,8 @@ body {
 	width:260px;
 	position: relative;
 	margin-bottom: 0px;
-}
+}*/
+
 p {
 	clear:left;
 	/*color:#505050;*/
