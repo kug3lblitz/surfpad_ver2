@@ -423,3 +423,14 @@ h4	{
 	max-width: 500px;
 	max-height: 250px;
 }
+
+#adpic {
+	padding-left: 55px;
+	background-image: url("./pictures/photo.jpg")
+	height, width: auto;
+	max-height: 200px;
+	max-width: 200px;
+	border: 0px;
+	alt: "a-psycho"
+
+}
