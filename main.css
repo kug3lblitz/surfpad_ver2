@@ -423,7 +423,7 @@ h4	{
 	background-color: #5C6870;
 	background-image: url(./icons/later.png);
 	backcground: cover, no-repeat;
-	width: 20%;
+	width: 28%;
 	height: 30px;
 	position: absolute;
 	z-index: 1;
@@ -453,7 +453,7 @@ h4	{
 #button3 {
 	height: 30px;
 	width: 70px;
-	margin-left: 25px;
+	margin-left: 30px;
 	background-color: #0069B6;
 	display: inline;
 	position: relative;
