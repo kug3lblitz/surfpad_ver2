@@ -380,24 +380,28 @@ h4	{
 		/*html line 45*/
 		list-style-type: none;
 		display: inline-block;
+		width: 100%;
 }
 
 .comment_bar {
 	list-style-type: none;
 	display: inline;
+	width: 100%;
 }
 
 .comment_bar li {
 	list-style-type: none;
 	display: inline;
 	position: relative;
+	width: 33%;
 }
 
 #button1ico {
 	display: inline;
 	background-color: #5C6870;
 	background-image: url(./icons/comments.png);
-	width:30px;
+	background: cover, no-repeat;
+	width:20%;
 	height:30px;
 	position: absolute;
 	vertical-align: middle;
@@ -407,6 +411,7 @@ h4	{
 #button1 {
 	height: 30px;
 	width: 70px;
+	margin-left: 25px;
 	background-color: #A0B3C0;
 	display: inline;
 	position: relative;
@@ -416,7 +421,8 @@ h4	{
 	display: inline;
 	background-color: #5C6870;
 	background-image: url(./icons/later.png);
-	width: 30px;
+	backcground: cover, no-repeat;
+	width: 20%;
 	height: 30px;
 	position: absolute;
 	z-index: 1;
@@ -425,6 +431,7 @@ h4	{
 #button2 {
 	height: 30px;
 	width: 70px;
+	margin-left: 25px;
 	background-color: #A0B3C0;
 	display: inline;
 	position: relative;
@@ -434,6 +441,7 @@ h4	{
 	display: inline;
 	background-color: #003353;
 	background-image: url(./icons/share.png);
+	background: cover, no-repeat;
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -444,6 +452,7 @@ h4	{
 #button3 {
 	height: 30px;
 	width: 70px;
+	margin-left: 25px;
 	background-color: #0069B6;
 	display: inline;
 	position: relative;
