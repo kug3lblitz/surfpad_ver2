@@ -381,6 +381,7 @@ h4	{
 		list-style-type: none;
 		display: inline-block;
 		width: 100%;
+		overflow: hidden;
 }
 
 .comment_bar {
