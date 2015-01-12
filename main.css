@@ -398,6 +398,8 @@ h4	{
 	background-image: url(./icons/comments.png);
 	width:30px;
 	height:30px;
+	position: relative;
+	vertical-align: middle;
 }
 
 #button1 {
@@ -405,6 +407,7 @@ h4	{
 	width: 70px;
 	background-color: #A0B3C0;
 	display: inline-block;
+	position: relative;
 }
 
 #button2ico {
@@ -413,6 +416,8 @@ h4	{
 	background-image: url(./icons/later.png);
 	width: 30px;
 	height: 30px;
+	position: absolute;
+	vertical-align: middle;
 }
 
 #button2 {
@@ -420,6 +425,7 @@ h4	{
 	width: 70px;
 	background-color: #A0B3C0;
 	display: inline-block;
+	position: relative;
 }
 
 #button3ico {
@@ -428,6 +434,8 @@ h4	{
 	background-image: url(.icons/share.png);
 	width: 30px;
 	height: 30px;
+	position: relative;
+	vertical-align: middle;
 }
 
 #button3 {
@@ -435,6 +443,7 @@ h4	{
 	width: 70px;
 	background-color: #0069B6;
 	display: inline-block;
+	position: relative;
 }
 
 #button1 a {
