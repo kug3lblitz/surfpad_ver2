@@ -390,59 +390,62 @@ h4	{
 .comment_bar li {
 	list-style-type: none;
 	display: inline;
+	position: relative;
 }
 
 #button1ico {
-	display: inline-block;
+	display: inline;
 	background-color: #5C6870;
 	background-image: url(./icons/comments.png);
 	width:30px;
 	height:30px;
-	position: relative;
+	position: absolute;
 	vertical-align: middle;
+	z-index: 1;
 }
 
 #button1 {
 	height: 30px;
 	width: 70px;
 	background-color: #A0B3C0;
-	display: inline-block;
+	display: inline;
 	position: relative;
 }
 
 #button2ico {
-	display: inline-block;
+	display: inline;
 	background-color: #5C6870;
 	background-image: url(./icons/later.png);
 	width: 30px;
 	height: 30px;
 	position: absolute;
-	vertical-align: middle;
+	z-index: 1;
 }
 
 #button2 {
 	height: 30px;
 	width: 70px;
 	background-color: #A0B3C0;
-	display: inline-block;
+	display: inline;
 	position: relative;
 }
 
 #button3ico {
-	display: inline-block;
+	display: inline;
 	background-color: #003353;
-	background-image: url(.icons/share.png);
+	background-image: url(./icons/share.png);
 	width: 30px;
 	height: 30px;
-	position: relative;
-	vertical-align: middle;
+	position: absolute;
+	vertical-align: right;
+	z-index: 1;
 }
 
 #button3 {
 	height: 30px;
 	width: 70px;
 	background-color: #0069B6;
-	display: inline-block;
+	display: inline;
 	position: relative;
 }
 
